@@ -1,67 +1,72 @@
-# 🤖 AI Chatbot CLI
+# 🤖 AI Assistant
 
-A powerful **AI-powered chatbot directly in your terminal** — interact with LLMs without leaving your command line.
+An AI-powered assistant that brings **LLM intelligence into your workflow** — enabling smart conversations, task assistance, and developer productivity.
 
 ---
 
 ## 🚀 Overview
 
-AI Chatbot CLI is a lightweight tool that lets you **chat with AI models from your terminal**.
+AI Assistant is designed to act as a **personal AI companion** that helps with:
 
-Instead of switching between web apps, you can:
+* Answering questions
+* Generating code
+* Assisting in development tasks
+* Automating repetitive workflows
 
-* Ask questions
-* Generate code
-* Debug issues
-* Explore ideas
-
-👉 All from your CLI.
-
-This follows the growing trend of **AI-first developer tools**, where the terminal becomes an intelligent interface for productivity.
+The goal is to move towards **AI-first development**, where intelligent systems assist directly in your daily workflow.
 
 ---
 
 ## 🔥 Features
 
-* 💬 Chat with AI in real-time (CLI-based interface)
-* ⚡ Fast and minimal setup
-* 🧠 Supports LLM-based responses
-* 🖥️ Works directly inside terminal
-* 🔄 Continuous conversation (chat loop)
-* 🧩 Easy to extend (add models / features)
+* 💬 Conversational AI interface
+* 🧠 LLM-powered responses
+* ⚡ Fast and lightweight architecture
+* 🧑‍💻 Developer-focused use cases
+* 🔄 Interactive session handling
+* 🧩 Easy to extend with new features
 
 ---
 
 ## 🧠 How It Works
 
 ```text
-User Input (CLI)
-      ↓
-Send Prompt to LLM API
-      ↓
-Model Processes Input
-      ↓
-Response Returned
-      ↓
-Displayed in Terminal
+User Input
+   ↓
+Send Request to LLM API
+   ↓
+Model Processes Prompt
+   ↓
+Generate Response
+   ↓
+Return Output to User
 ```
 
 ---
 
 ## 🛠️ Tech Stack
 
-* **Language:** TypeScript / Node.js
-* **Runtime:** Node.js
-* **AI:** OpenAI / Groq / any LLM API
-* **CLI:** Native terminal / readline / prompts
+**Backend**
+
+* TypeScript / Node.js
+* Express (if API-based)
+
+**AI / LLM**
+
+* OpenAI / Groq / other providers
+
+**Architecture**
+
+* Prompt → LLM → Response flow
+* Modular & extensible design
 
 ---
 
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/rushikedar5/AI-Chatbot-CLI.git
-cd AI-Chatbot-CLI
+git clone https://github.com/rushikedar5/AI-Assistant.git
+cd AI-Assistant
 npm install
 ```
 
@@ -77,10 +82,10 @@ OPENAI_API_KEY=your_api_key
 
 ---
 
-## ▶️ Run the CLI
+## ▶️ Run the Project
 
 ```bash
-npm start
+npm run dev
 ```
 
 ---
@@ -90,32 +95,32 @@ npm start
 ```bash
 > Ask anything:
 > "Explain event loop in Node.js"
-> "Fix this error: ..."
+> "Generate REST API in Express"
 
 AI:
-✔ Returns response directly in terminal
+✔ Returns intelligent response
 ```
 
 ---
 
 ## 🧪 Use Cases
 
-* 🧑‍💻 Developer assistant (debugging, code help)
-* ⚡ Quick answers without browser
-* 📚 Learning concepts faster
-* 🛠️ Command-line productivity tool
-* 🧠 Prompt engineering practice
+* 🧑‍💻 Developer assistant
+* 📚 Learning & concept explanation
+* ⚡ Quick problem solving
+* 🛠️ Code generation & debugging
+* 🤖 Base for building autonomous agents
 
 ---
 
 ## 🚀 Future Improvements
 
-* Streaming responses (real-time typing)
-* Multi-model support (OpenAI, Claude, Gemini)
-* Command mode (generate shell commands)
-* Chat history persistence
-* Plugin/tool calling system
-* Voice input (advanced)
+* Streaming responses (real-time output)
+* Memory (conversation history)
+* Tool calling (execute actions)
+* Multi-model support (GPT, Claude, Gemini)
+* Integration with CLI / VS Code
+* Agent-based workflows
 
 ---
 
@@ -138,6 +143,8 @@ If you like this project:
 
 ## 📌 Vision
 
-Turning the terminal into an **AI-powered workspace** — where developers can think, build, and ship faster.
+Building towards **autonomous AI systems** that go beyond chat — capable of reasoning, assisting, and executing real tasks.
 
 ---
+
+> From simple prompts to intelligent systems 🚀
